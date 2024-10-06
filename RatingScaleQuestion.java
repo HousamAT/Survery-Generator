@@ -10,13 +10,13 @@ public class RatingScaleQuestion extends Question {
 
     @Override
     public String formatQuestion() {
-        return questionText + " (Rate from " + min + " to " + max + ")";
+        return "\n" + questionText + " (Rate from " + min + " to " + max + ")\n";
     }
 
     @Override
     public void takeQuestion(java.util.Scanner scanner) {
-        System.out.println(questionText + " (Rate from " + min + " to " + max + "): ");
+        System.out.println(formatQuestion());
         String answer = scanner.nextLine();
-        System.out.println("You rated: " + answer);
+        System.out.println("You rated: " + answer + "\n");
     }
 }

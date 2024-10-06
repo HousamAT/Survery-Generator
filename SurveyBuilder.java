@@ -12,7 +12,7 @@ public class SurveyBuilder {
         Survey survey = new Survey(title, description);
 
         while (true) {
-            System.out.println("Add a question (1: Yes/No, 2: Rating Scale, 3: Text, 4: Multiple Choice, 0: Finish): ");
+            System.out.println("\n Choose the type of question you want to add by typing the corresponding number (1: Yes/No, 2: Rating Scale, 3: Text, 4: Multiple Choice, 0: Finish): ");
             int choice = Integer.parseInt(scanner.nextLine());
 
             if (choice == 0) break;
@@ -51,7 +51,7 @@ public class SurveyBuilder {
     public void saveSurvey(Survey survey, String filename) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
             writer.write(survey.toFormattedText());
-            System.out.println("Survey saved to " + filename);
+            System.out.println("\nSurvey saved to " + filename);
         } catch (IOException e) {
             System.out.println("Error saving the survey: " + e.getMessage());
         }

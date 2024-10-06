@@ -6,13 +6,13 @@ public class YesNoQuestion extends Question {
 
     @Override
     public String formatQuestion() {
-        return questionText + " (yes/no)";
+        return "\n" + questionText + " (yes/no)\n";
     }
 
     @Override
     public void takeQuestion(java.util.Scanner scanner) {
-        System.out.println(questionText + " (yes/no): ");
+        System.out.println(formatQuestion());
         String answer = scanner.nextLine();
-        System.out.println("You answered: " + answer);
+        System.out.println("You answered: " + answer + "\n");
     }
 }
