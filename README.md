@@ -10,6 +10,7 @@ The primary purpose of this project is to learn and implement Object-Oriented Pr
 # Prerequisites
 Java Development Kit (JDK) installed on your system.
 
+# Steps 
 1. git clone https://github.com/HousamAT/Survery-Generator.git
 2. cd Survey Generator 2 
 3. Javac Main.java
@@ -76,4 +77,9 @@ Which of the following best describes your overall experience with us?
 4. Poor
 Enter your choice (1-4): 1
 You selected: Excellent
+
+### Conclusion
+This survey application serves as an effective tool for learning Java OOP principles while providing 
+a functional and user-friendly survey experience.
+
 
