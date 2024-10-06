@@ -25,28 +25,41 @@ Below is an example interaction with the application, demonstrating how to creat
 
 
 Enter survey title: Customer Satisfaction Survey
+
 Enter survey description: A survey to gather feedback on our service.
 
 Add a question (1: Yes/No, 2: Rating Scale, 3: Text, 4: Multiple Choice, 0: Finish):
+
 1
+
 Enter the question text: Did you enjoy our service?
 
 Add a question (1: Yes/No, 2: Rating Scale, 3: Text, 4: Multiple Choice, 0: Finish):
+
 2
+
 Enter the question text: How would you rate our service from 1 to 5?
+
 Enter min value for rating: 1
+
 Enter max value for rating: 5
 
 Add a question (1: Yes/No, 2: Rating Scale, 3: Text, 4: Multiple Choice, 0: Finish):
+
 3
+
 Enter the question text: What did you like most about our service?
 
 Add a question (1: Yes/No, 2: Rating Scale, 3: Text, 4: Multiple Choice, 0: Finish):
+
 4
+
 Enter the question text: Which of the following best describes your overall experience with us?
+
 Enter multiple choice options (separated by commas): Excellent,Good,Neutral,Poor
 
 Add a question (1: Yes/No, 2: Rating Scale, 3: Text, 4: Multiple Choice, 0: Finish):
+
 0
 
 Survey saved to survey.txt
@@ -59,7 +72,9 @@ After creating the survey, the user is asked whether they want to take the surve
 Do you want to take the survey now? (yes/no): yes
 
 Did you enjoy our service? (yes/no)
+
 yes
+
 You answered: yes
 
 How would you rate our service from 1 to 5?
@@ -67,7 +82,9 @@ How would you rate our service from 1 to 5?
 You rated: 5
 
 What did you like most about our service?
+
 Customer support was quick and helpful.
+
 You answered: Customer support was quick and helpful.
 
 Which of the following best describes your overall experience with us?
