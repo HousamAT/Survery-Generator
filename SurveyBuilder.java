@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 
+// This class facilitates the creation of surveys by prompting the user for input.
+// It handles adding questions to the survey and saving the survey to a file in a structured format.
 public class SurveyBuilder {
     private Scanner scanner = new Scanner(System.in);
 

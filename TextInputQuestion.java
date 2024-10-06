@@ -1,3 +1,5 @@
+// This class represents a free-text input question in the survey.
+// It allows users to provide their response as a free-form text answer.
 public class TextInputQuestion extends Question {
 
     public TextInputQuestion(String questionText) {

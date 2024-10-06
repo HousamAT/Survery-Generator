@@ -1,5 +1,7 @@
 import java.util.*;
 
+// This class loads a previously saved survey and prompts the user to take it.
+// It handles different types of questions appropriately and records user responses.
 public class SurveyTaker {
 
     public void takeSurvey(Survey survey) {

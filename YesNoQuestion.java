@@ -1,3 +1,6 @@
+// This class represents a yes/no question in the survey.
+// It extends the Question class and formats the question with a "yes/no" prompt.
+
 public class YesNoQuestion extends Question {
 
     public YesNoQuestion(String questionText) {

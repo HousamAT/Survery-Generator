@@ -1,5 +1,7 @@
 import java.util.*;
 
+// This class represents a multiple-choice question in the survey.
+// It allows users to select one answer from a list of predefined options.
 public class MultipleChoiceQuestion extends Question {
     private List<String> options;
 

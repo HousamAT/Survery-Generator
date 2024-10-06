@@ -1,3 +1,6 @@
+// This class represents a rating scale question in the survey.
+// It allows the user to rate their response on a scale, with a configurable minimum and maximum value.
+
 public class RatingScaleQuestion extends Question {
     private int min;
     private int max;

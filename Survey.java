@@ -1,5 +1,8 @@
 import java.util.*;
 
+// This class represents a survey, containing a title, description, and a list of questions.
+// It provides methods to add questions and convert the survey to a formatted text representation.
+
 public class Survey {
     private String title;
     private String description;

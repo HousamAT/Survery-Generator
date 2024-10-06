@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// This class serves as the entry point of the survey application.
+// It allows the user to create a survey and offers the option to take the survey after creation.
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
