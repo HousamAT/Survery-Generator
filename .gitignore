@@ -1,0 +1,4 @@
+# Ignore all .class files (compiled Java bytecode)
+*.class
+
+survey.txt
